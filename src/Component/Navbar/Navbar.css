@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upperNav {
+    height: 120px;
+    width: 99vw;
+    background-color: #1085DB;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo-style {
+    display: flex;
+}
+
+.navlogo {
+    height: 100px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.lowerNav {
+    height: 45px;
+    width: 99vw;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    margin-left: 50px;
+    width: 99vw;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.homeStyle {
+    color: #1085DB;
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .upperNav {
+        height: 80px;
+        width: 100vw;
+    }
+
+    .navlogo {
+        height: 60px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .lowerNav {
+        height: 35px;
+        width: 100vw;
+    }
+
+    .menu {
+        margin-left: 20px;
+        width: 100vw;
+        font-size: 16px;
+    }
+}
+
+/* Styles for mobile phones */
+@media only screen and (max-width: 480px) {
+    .upperNav {
+        height: 32.84px;
+        width: 430px;
+        background-color: #1085DB;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    .navlogo {
+        height: 26px;
+        width: 84px;
+        margin-top: 3px;
+        margin-left: 15px;
+    }
+
+    .lowerNav {
+        height: 26px;
+        width: 430px;
+        display: flex;
+        font-family: "Poppins", sans-serif;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    .menu {
+        margin-left: 12px;
+        width: 430px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 10px;
+        font-weight: 600;
+        display: none;
+    }
+}
+

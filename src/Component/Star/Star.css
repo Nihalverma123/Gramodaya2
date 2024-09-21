@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.star {
+    height: 178vh;
+    width: 100vw;
+    background-color: #F9F9F9;
+    padding-top: 20px; /* Added padding to the top */
+}
+
+.star-text {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.starheight {
+    margin-top: 40px;
+    height: 128vh;
+    width: 100%;
+    background-color: #EAF3FB;
+}
+
+.starimg {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.starimg1, .starimg2, .starimg3, .starimg4 {
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+.star-lower {
+    margin-top: 100px;
+}
+
+.right-star {
+    display: flex;
+}
+
+.mapStyl {
+    height: 50vh;
+    width: 40vw;
+    margin-top: -300px;
+    margin-left: 800px;
+}
+
+.left-star {
+    width: 40vw;
+    height: 50vh;
+    margin-top: 90px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lefth1 {
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.left-p {
+    width: 28.4vw;
+}
+
+.input-left {
+    margin-top: 40px;
+    height: 60px;
+    width: 30vw;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.left-span {
+    color: #004AAD;
+}
+
+.subscribe {
+    background-color: #004AAD;
+    padding: 2px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    margin-top: -46px;
+    margin-left: 320px;
+    color: #EAF3FB;
+    outline: none;
+    border: none;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .star {
+        height: auto;
+        margin-top: -96px;
+        /* Added padding to the top */
+    }
+
+    .star-text {
+      display: none;
+      font-size: 0;
+    }
+    .starimg{
+        height: 0vh;
+    }
+
+   
+
+    .starimg1, .starimg2, .starimg3, .starimg4 {
+       
+        display: none;
+    }
+
+    .left-star {
+        width: 80%;
+        margin-left: 25px;
+        margin-top: -150px;
+    }
+
+    .lefth1 {
+        font-size: 30px;
+    }
+
+    .left-p {
+        width: 70%;
+    }
+
+    .input-left {
+        width: 70%;
+    }
+
+    .subscribe {
+        margin-left: 0;
+        width: 50%;
+    }
+
+    .mapStyl {
+        height: 50vh;
+        width: 80%;
+        margin-top: -10px;
+        margin-left: 10%;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .star {
+        height: 80vh;
+        margin-top: -96px;
+        /* Added padding to the top */
+    }
+
+    .star-text {
+      display: none;
+    }
+    .starimg{
+        height: 0vh;
+    }
+
+    
+
+    .starimg1, .starimg2, .starimg3, .starimg4 {
+      
+        display: none;
+    }
+
+    .left-star {
+        width: 90%;
+       margin-left: 25px;
+       margin-top: -150px;
+    }
+
+    .lefth1 {
+        font-size: 24px;
+    }
+
+    .left-p {
+        width: 90%;
+    }
+
+    .input-left {
+        width: 90%;
+    }
+
+    .subscribe {
+        margin-left: 0;
+        width: 70%;
+    }
+    .right-star{
+        display: flex;
+        margin-top: -160px;
+    }
+
+    .mapStyl {
+        height: 40vh;
+        width: 90%;
+        margin-top: auto;
+        margin-left: 10px;
+       
+    }
+    .subscribe{
+
+       width: 100px;
+       margin-left: 223px;
+       height: 50px;
+       margin-top: -55px;
+    }
+}

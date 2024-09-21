@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    height: 120vh;
+    width: 100%;
+}
+
+.aboutUp {
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image1, .image2, .image3, .image4, .image5 {
+    height: 350px;
+    width: 350px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.aboutDown {
+    font-family: "Poppins", sans-serif;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    margin: -60px 40px 80px 160px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about-left {
+    width: 500px;
+    margin: 50px 40px 20px 30px;
+    height: auto;
+}
+.about-left p{
+    font-size: 12px;
+}
+
+.about-left-h1 {
+    color: #0A21F4;
+}
+
+.abot-right {
+    width: 600px;
+    margin: 50px 40px 20px 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .about {
+        height: auto;
+        width: 100%;
+    }
+
+    .aboutUp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image1, .image2, .image3, .image4, .image5 {
+        height: 250px;
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .aboutDown {
+        width: 90%;
+        margin: 20px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left, .abot-right {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .aboutDown{
+
+        box-shadow: none;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .about {
+        height: auto;
+        width: 100%;
+    }
+
+    .aboutUp {
+       display: flex;
+       width: 100%;
+       flex-direction: row;
+       height: auto;
+    }
+
+    .image1, .image2, .image3, .image4, .image5 {
+        height: 100px;
+        width: 20%;
+        margin: 5px 0;
+    }
+
+    .aboutDown {
+        width: 95%;
+        margin: 10px auto;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .about-left, .abot-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .abot-right{
+        display: none;
+    }
+    .aboutDown{
+
+        box-shadow: none;
+    }
+   
+}
+

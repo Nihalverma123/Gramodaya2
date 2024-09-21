@@ -1,0 +1,280 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.activityh1 {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #0A21F4;
+}
+
+.activity-upper {
+    margin-top: 20px;
+    height: 46vh;
+    width: 90vw;
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.img1ac, .img2ac, .img3ac {
+    height: 350px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.school1acimg1, .school1acimg2, .school1acimg3, .school1acimg4, .school1acimg6 {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.galleryh1 {
+    margin-left: 100px;
+    margin-top: 130px;
+    font-size: 40px;
+    color: #0A21F4;
+}
+
+.activity-lower {
+    margin-top: 20px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery1img1, .gallery1img2, .gallery1img3 {
+    height: 400px;
+    width: 28vw;
+    object-fit: cover;
+}
+
+/* Styles for tablets */
+/* @media (max-width: 768px) {
+
+
+    .activity {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        background-color: #F9F9F9;
+    }
+    .activity-upper, .activity-lower {
+        flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+
+   
+
+    .img1ac, .img2ac, .img3ac {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    /* .gallery1img1 {
+        width: 80%;
+        margin-left: 0;
+    } */
+    /* .gallery1img2, .gallery1img3, .gallery1img1{
+        display: none;
+    }
+
+    .activityh1, .galleryh1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .school1acimg3, .school1acimg4, .school1acimg6{
+        display: none;
+    }
+   
+} */
+
+/* Styles for mobile phones */
+/* @media (max-width: 480px) {
+
+
+    .activity {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        background-color: #F9F9F9;
+    }
+    .activity-upper, .activity-lower {
+       
+        width: 100%;
+        height: auto;
+    }
+
+    .img1ac, .img2ac, .img3ac {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery1img1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .gallery1img2, .gallery1img3 ,.gallery1img1 {
+        display: none;
+    }
+
+    .activityh1, .galleryh1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .school1acimg3, .school1acimg4, .school1acimg6{
+        display: none;
+    }
+    
+} */ */ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.activityh1 {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #0A21F4;
+}
+
+.activity-upper {
+    margin-top: 20px;
+    height: 46vh;
+    width: 90vw;
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.img1ac, .img2ac, .img3ac {
+    height: 350px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.school1acimg1, .school1acimg2, .school1acimg3, .school1acimg4, .school1acimg6 {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.galleryh1 {
+    margin-left: 100px;
+    margin-top: 130px;
+    font-size: 40px;
+    color: #0A21F4;
+}
+
+.activity-lower {
+    margin-top: 20px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery1img1, .gallery1img2, .gallery1img3 {
+    height: 400px;
+    width: 28vw;
+    object-fit: cover;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .activity {
+        height: auto;
+    }
+
+    .activity-upper, .activity-lower {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img1ac, .img2ac, .img3ac {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .gallery1img1 {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .gallery1img2,.gallery1img3,  .school1acimg3, .school1acimg4, .school1acimg6 {
+        display: none;
+    }
+
+    .activityh1, .galleryh1 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .activity {
+        height: auto;
+    }
+
+    .activity-upper, .activity-lower {
+        width: 100%;
+    }
+
+    .img1ac, .img2ac, .img3ac {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery1img1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery1img2, .gallery1img3,  .school1acimg3, .school1acimg4, .school1acimg6 {
+        display: none;
+    }
+
+    .activityh1, .galleryh1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .school1acimg1, .school1acimg2{
+
+        margin-left: -40px;
+    }
+}
+

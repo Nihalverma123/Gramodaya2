@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagestyling {
+    height: 600px;
+    width: 99vw;
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .imagestyling {
+        height: 400px;
+        width: 90vw;
+        margin-top: -20px;
+    }
+}
+
+/* Styles for mobile phones */
+@media only screen and (max-width: 480px) {
+    .imagestyling {
+        height: 227.4px;
+        width: 430px;
+        margin-top: -25px;
+    }
+}
